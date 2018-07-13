@@ -1,8 +1,8 @@
 
 {
   "name": "chirp-react-native",
-  "version": "0.0.2",
-  "description": "Chirp SDK for React Native using native modules. Built based on https://github.com/chirp/chirp-connect-react-native",
+  "version": "0.0.3",
+  "description": "Chirp SDK for React Native using native modules. Built based on https://blog.chirp.io/chirp-connect-with-react-native-b5fb9977337",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

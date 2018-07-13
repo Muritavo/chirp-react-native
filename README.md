@@ -1,6 +1,7 @@
 
 # chirp-react-native
-
+Use Chirp SDK for transfering data over sound on React Native. Developed based on [Chirp + React Native blog post](https://blog.chirp.io/chirp-connect-with-react-native-b5fb9977337)
+For more info and getting credentials please visit [Chirp.io](https://developers.chirp.io)
 ## Getting started
 
 `$ npm install chirp-react-native --save`
@@ -54,7 +55,7 @@ RNChirpReactNative.start();
 RNChirpReactNative.sendRandom();
 
 //Or send an encoded data
-RNChirpReactNative.send(new Uint8Array([172, 47, 117, 192]));
+RNChirpReactNative.send([172, 47, 117, 192]);
 
 //Register a listener to catch transmited data
 const listener = RNChirpReactNative.on(ChirpEvent.onReceived, (data) => {
